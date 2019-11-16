@@ -1,0 +1,43 @@
+<!-- <ckeditor
+  [(ngModel)]="model.editorData"
+  (change)="onChange($event)"
+  [readOnly]="ckconfig.isReadonly"
+  [config]="ckconfig.config"
+  (ready)="onReady($event)"
+  id="editor"
+>
+</ckeditor> -->
+<!-- [config]="ckconfig"  -->
+
+
+<!-- <ckeditor
+    [(ngModel)]="ckeditorContent"
+    [config]=""
+    [readonly]="false"
+    (change)="onChange($event)"
+    (editorChange)="onEditorChange($event)"
+    (ready)="onReady($event)"
+    (focus)="onFocus($event)"
+    (blur)="onBlur($event)"
+    (contentDom)="onContentDom($event)"
+    (fileUploadRequest)="onFileUploadRequest($event)"
+    (fileUploadResponse)="onFileUploadResponse($event)"
+    (paste)="onPaste($event)"
+    (drop)="onDrop($event)"
+    debounce="500">
+  </ckeditor> -->
+
+
+  <p>
+    <ckeditor
+      [config]="myCkeditorConfig"
+      (change)="onChange($event)"
+      (ready)="onReady($event)"
+      >
+    </ckeditor>
+  </p>
+
+
+<hr />
+
+<!-- <div [innerHTML]="model.editorData"></div> -->
